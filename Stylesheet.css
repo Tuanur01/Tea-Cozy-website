@@ -1,0 +1,115 @@
+* {
+    font-family: helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    background-color: transparent;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.navlinks {
+    float: right;
+    padding-top: 16px;
+}
+
+.navlinks a {
+    padding: 16px;
+}
+
+.imglogo {
+    float: left;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+header {
+    background-image: url(./Images/img-mission-background.jpg);
+    height: 700px;
+    width: 1200px;
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_text {
+    background-color: black;
+    width: 1200px;
+}
+
+.teamonth {
+    width: 1000px;
+    margin: auto;
+}
+
+.teaimg {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.berry_img,
+.spiced_img,
+.donut_img,
+.myrtle_img,
+.bedford_img {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.location {
+    background-image: url(./Images/img-locations-background.jpg);
+    height: 500px;
+    width: 1200px;
+    margin: auto;
+}
+
+.location h2 {
+    padding-top: 150px;
+}
+
+.adres {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    opacity: 1;
+}
+
+.downtown,
+.east,
+.oakdale {
+    background-color: black;
+    width: 300px;
+}
+
+.downtown,
+.east {
+    margin-right: 40px;
+}
+
+.contact {
+    height: 200px;
+}
+
+.copyright{
+    float: left;
+    margin-left: 20px;
+}
