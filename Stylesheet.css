@@ -56,11 +56,12 @@ header {
 .teamonth {
     width: 1000px;
     margin: auto;
+    padding-top: 70px;
 }
 
 .teaimg {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-content: space-between;
     flex-wrap: wrap;
 }
@@ -73,6 +74,18 @@ header {
     height: 200px;
     width: 300px;
     margin-bottom: 10px;
+}
+
+.myrtle {
+    padding-left: 150px;
+}
+
+.bedford {
+    padding-right: 150px;
+}
+
+#place {
+    height: 50px;
 }
 
 .location {
